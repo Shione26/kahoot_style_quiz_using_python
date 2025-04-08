@@ -1,0 +1,37 @@
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+-> rough plan
+-> project: make a quiz looking like kahoot using python tkinter GUI
+-> think of 5 or 10 questions with 4 choices each
+-> add buttons, widget label, time library, random library, preferably add the song too
+-> create a tuple to insert the questions, and the options and the guesses, and print the user’s score
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+-> import tkinter
+       -> from tkinter import*
+       -> window.mainloop()
+-> create a window, resize it, rename the title, change the logo
+       -> [SIZE] window.geometry(“{pixel size}”)
+       -> [TITLE] window.title(“{title}”)
+       -> [IMAGE] Photoimage(file=”filename.png”)
+       -> [LOGO] window.iconphoto(True, icon)
+       -> [BG COLOR] window.config(background=”color”)
+-> add a label to the window, edit the label, insert image to the label
+       -> [POSITION] label.pack()
+       -> [MANUAL]  label.place(x=0, y=0)
+-> add a button widget to the window
+       -> button(window, text=”{text}”)
+       -> button.pack()
+       -> button.config(command={click})
+       -> button.congfig(font=({style}, {size}, {bold}))
+       -> button.config(bg=”color”)
+       -> button.config(image=image)
+       -> button.config(compound=”top or bottom”)
+       -> [DISABLE] button.config(state=ACTIVE or DISABLED)
+       -> label = Label(window, text=count)
+       -> label.pack()
+       -> label.config(font=”{style}, {size}”)
+       -> label.config(text=count)
+      -> button.pack()
+
